@@ -1,41 +1,130 @@
-html
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Agriculture Page</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Responsive Portfolio Website</title>
+	<!---custom css link---->
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+	<link rel="stylesheet"href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
 </head>
 <body>
-    <header>
-        <h1>Welcome to Our Agriculture Website</h1>
-    </header>
-    <nav>
-        <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About Us</a></li>
-            <li><a href="#">Products</a></li>
-            <li><a href="#">Contact Us</a></li>
-        </ul>
-    </nav>
-    <main>
-        <section>
-            <h2>About Our Farm</h2>
-            <p>We are a family-owned farm dedicated to sustainable agriculture.</p>
-        </section>
-        <section>
-            <h2>Our Products</h2>
-            <ul>
-                <li>Wheat</li>
-                <li>Corn</li>
-                <li>Tomatoes</li>
-            </ul>
-        </section>
-        <section>
-            <h2>Contact Us</h2>
-            <p>You can reach us at contact@ourfarm.com</p>
-        </section>
-    </main>
-    <footer>
-        <p>&copy; 2023 Our Farm</p>
-    </footer>
-</body>
-</html>
+	<!------Header Section------>
+	<header>
+		<a href="#" class="logo">Devlo<span>pe</span>r..</a>
+		<ul class="navlist">
+			<li><a href="#home" class="active">Home</a></li>
+			<li><a href="#about">About Me</a></li>
+			<li><a href="#portfolio">Portfolio</a></li>
+			<li><a href="#contact">Contact</a></li>
+		</ul>
+		<div class="bx bx-menu" id="menu-icon"></div>
+	</header>
+	<!---------Home Section--------------->
+	<section class="home" id="home">
+		<div class="home-text">
+			<div class="slide">
+				<span class="one">Hello</span>
+				<span class="two">I'm</span>
+			</div>
+			<h1><SPAN>RAJARAJA</SPAN>CHOLAN</h1>
+			<h3>APP <span>DEVELOPER.</span></h3>
+			<h2>From LEO </span></h2>
+			<p>I'm a app developer with extensive experience for over 2 years. <br> My expertise is to create and app design, <br> graphic design and many more... </p>
+			<div class="button">
+				<a href="#" class="btn">About Me</a>
+			</div>
+		</div>
+	</section>
+
+	<!---------about Section --------------->
+	<section class="about" id="about">
+		<div class="about-img">
+			<img src="ragav.jpeg.jpg">
+		</div>
+
+		<div class="about-text">
+			<h2>About <span>Me</span></h2>
+			<h4>app developer!</h4>
+			<p>I'M STUDY IN III B.Sc COMPUTER SCIENCE <br> ON THIRU VI KA GOVT ARTS COLLEGE,<br> In THIRUVARUR. 
+			</p>
+				<a href="#" class="btn">More About</a>
+		</div>
+	</section>
+
+ <!-----------Portfolio Section--------------->
+<section class="portfolio" id="portfolio">
+	<div>
+        <h1><span>ABOUT </span>MY COLLEGE</h1>
+        <p align="justify">This college was started in 1970-1971 under the name 'Kalaignar Karunanidhi Government Arts College'.
+           The then district collector of composite Thanjavur Mr.T.V.Andhoni, I.A.S., and his officials extended their helping hand to start college at the time. The college offering Pre University courses initially started functioning in the precincts of Thiyagaraja Temple, Tiruvarur.</p><br><br>
+    </div>
+    <div class="main-text">
+
+		<h2><span>PICTURES </span>About My College</h2>
+	</div>
+	<div class="portfolio-content">
+		<div class="row">
+			<img src="entrence.jpg" >
+			<div class="layer">
+				<h5>Visual Design</h5>
+				<p>Check out my college icon.</p>
+				<a href="#"> <i class='bx bx-link-external'></i></a>
+			</div>
+		</div>
+
+		<div class="row">
+			<img src="building.jpg" >
+			<div class="layer">
+				<h5>Visual Design</h5>
+				<p>Check out 10 my department block.</p>
+				<a href="#"> <i class='bx bx-link-external'></i></a>
+			</div>
+		</div> 
+	</div>
+</section>
+
+<!------------------Contact section------------>
+<section class="contact" id="contact">
+	<div class="contact-text">
+		<h2>Contact <span>Me!</span></h2>
+		<h4>If you have any project in your mind.</h4>
+		<p>I'm a APP DEVELOPER - creating bold & brave interface design for compaines all across the world.</p>
+		<div class="list">
+			<li><a href="#">IT'S ME - CHOLA</a></li>
+			<li><a href="#">E-Mail  - rajarajan300404@gmail.com</a></li>
+			<li><a href="#">INSTA     - chola_003_</a></li>
+			<li><a href="#">PH NO   - 6374715017</a></li>
+		</div>
+
+		<div class="contact-icons">
+			<a href="#"><i class='bx bxl-facebook'></i></a>
+			<a href="#"><i class='bx bxl-gmail'></i></a>
+			<a href="#"><i class='bx bxl-instagram-alt' ></i></a>
+			<a href="#"><i class='bx bxl-whatsapp'></i></a>
+		</div>
+
+	</div>
+	<div class="contact-form">
+		<form action="">
+			<input type="name" placeholder="Your Name " required>
+			<input type="email" placeholder="Your Email " required>
+			<input type="number" placeholder="your Mobile Number" required>
+			<textarea name="" id="" cols="35" rows="10" placeholder="How Can I Help You " required></textarea>
+			<input type="submit" value="Send Message" class="submit" required>
+		</form>
+
+	</div>
+</section>
+
+<!---------End Section---------->
+<section class="end">
+	<div class="last-text">
+		<p>Designed By CHOZHALAN <BR>FROM LEO ON LEODASS</p>
+	</div>
+	<div class="top">
+		<a href="#home"><i class='bx bx-up-arrow-alt' ></i></a>
+	</div>
+</section>
+</body> </html>
